@@ -19,7 +19,7 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        serif: ['var(--font-slab)', ...fontFamily.serif],
+        serif: ['var(--font-inter)', ...fontFamily.serif],
       },
       colors: {
         border: 'hsl(var(--border))',
