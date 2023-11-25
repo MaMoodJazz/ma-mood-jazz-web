@@ -4,7 +4,7 @@ import '@/app/globals.css';
 import Navbar from '@/components/menu/Navbar';
 import { cn } from '@/lib/tailwindUtil';
 
-export const font = Hepta_Slab({
+const font = Hepta_Slab({
   weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
   subsets: ['latin'],
   variable: '--font-slab',
